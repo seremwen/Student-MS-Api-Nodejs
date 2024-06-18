@@ -14,7 +14,7 @@ const Student = sequelize.define('Student', {
     },
     age: {
         type: DataTypes.INTEGER,
-        allowNull: false,
+        allowNull: true,
     },
     major: {
         type: DataTypes.STRING,
